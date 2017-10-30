@@ -299,33 +299,6 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection id="1MS-xA-Mim">
-                                <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="Gla-fZ-Uhi">
-                                        <rect key="frame" x="0.0" y="345" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Gla-fZ-Uhi" id="DnG-H5-gzb">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZJ-bD-Pai">
-                                                    <rect key="frame" x="154" y="11" width="67" height="21"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="T1B-Ja-Ccb"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="rZJ-bD-Pai" firstAttribute="centerX" secondItem="DnG-H5-gzb" secondAttribute="centerX" id="Bzw-sY-iBQ"/>
-                                                <constraint firstItem="rZJ-bD-Pai" firstAttribute="centerY" secondItem="DnG-H5-gzb" secondAttribute="centerY" id="tGs-gC-C0n"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="Zlz-co-vNr" id="M52-D5-rNk"/>
@@ -391,30 +364,6 @@
                                             <constraints>
                                                 <constraint firstItem="scj-uq-mTB" firstAttribute="centerX" secondItem="H64-i4-NgP" secondAttribute="centerX" id="RAL-Ad-gze"/>
                                                 <constraint firstItem="scj-uq-mTB" firstAttribute="centerY" secondItem="H64-i4-NgP" secondAttribute="centerY" id="x99-Kr-fAV"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                            <tableViewSection id="4fY-NS-ev7">
-                                <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="OH2-TO-dIL">
-                                        <rect key="frame" x="0.0" y="159" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OH2-TO-dIL" id="PLH-mJ-RsY">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change User Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpK-SS-Mow">
-                                                    <rect key="frame" x="98.5" y="11" width="178" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="MpK-SS-Mow" firstAttribute="centerX" secondItem="PLH-mJ-RsY" secondAttribute="centerX" id="glY-RE-uQw"/>
-                                                <constraint firstItem="MpK-SS-Mow" firstAttribute="centerY" secondItem="PLH-mJ-RsY" secondAttribute="centerY" id="w5w-T5-OaG"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
