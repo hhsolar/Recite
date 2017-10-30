@@ -511,7 +511,7 @@
 				TargetAttributes = {
 					1893416C1FA6AC4B00CCC1B2 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					189341831FA6AC4C00CCC1B2 = {
 						CreatedOnToolsVersion = 9.0;
@@ -922,7 +922,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hao Hong (W2MFT9HK9F)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -948,7 +948,8 @@
 			baseConfigurationReference = DDD4530734ABB796A00CC257 /* Pods-Recite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hao Hong (5RZ4473SG6)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = W2MFT9HK9F;
 				INFOPLIST_FILE = Recite/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
@@ -967,7 +968,8 @@
 			baseConfigurationReference = 1ED996F2A60AA6A884325213 /* Pods-Recite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hao Hong (W2MFT9HK9F)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = W2MFT9HK9F;
 				INFOPLIST_FILE = Recite/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
