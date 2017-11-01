@@ -39,6 +39,7 @@ struct CustomSize {
     static let statusBarHeight: CGFloat = UIApplication.shared.statusBarFrame.height
     static let barHeight: CGFloat = 44
     static let toolBarHeight: CGFloat = UIApplication.shared.statusBarFrame.height > 20 ? 83 : 44
+    static let buttonWidth: CGFloat = 37
     static let buttonHeight: CGFloat = 30
     static let smallBtnHeight: CGFloat = 26
     static let titleLabelHeight: CGFloat = 24

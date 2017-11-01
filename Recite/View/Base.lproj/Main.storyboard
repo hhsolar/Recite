@@ -20,7 +20,7 @@
         <!--Library-->
         <scene sceneID="CuZ-Rr-qwc">
             <objects>
-                <viewController id="Wqr-wf-4t8" customClass="LibraryViewController" customModule="MemoryMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Wqr-wf-4t8" customClass="LibraryViewController" customModule="Recite" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="meV-rV-3ou">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,7 +120,7 @@
         <!--Me-->
         <scene sceneID="Dny-rb-G1o">
             <objects>
-                <tableViewController id="Zlz-co-vNr" customClass="MeTableViewController" customModule="MemoryMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Zlz-co-vNr" customClass="MeTableViewController" customModule="Recite" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="EtD-4e-0yr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -319,7 +319,7 @@
         <!--Settings Table View Controller-->
         <scene sceneID="bbD-mN-Xaz">
             <objects>
-                <tableViewController hidesBottomBarWhenPushed="YES" id="9jA-km-oLg" customClass="SettingsTableViewController" customModule="MemoryMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController hidesBottomBarWhenPushed="YES" id="9jA-km-oLg" customClass="SettingsTableViewController" customModule="Recite" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="jH7-D4-kVF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -383,7 +383,7 @@
         <!--Person Edit Table View Controller-->
         <scene sceneID="oeP-iI-zUX">
             <objects>
-                <tableViewController hidesBottomBarWhenPushed="YES" id="iOS-u3-FGD" customClass="PersonEditTableViewController" customModule="MemoryMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController hidesBottomBarWhenPushed="YES" id="iOS-u3-FGD" customClass="PersonEditTableViewController" customModule="Recite" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="1aZ-0t-ife">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -500,7 +500,7 @@
         <!--Note View Controller-->
         <scene sceneID="1dN-5N-AEo">
             <objects>
-                <viewController id="LyZ-UV-d89" customClass="NoteViewController" customModule="MemoryMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LyZ-UV-d89" customClass="NoteViewController" customModule="Recite" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jky-Ve-AhL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -536,7 +536,7 @@
         <!--Recite View Controller-->
         <scene sceneID="yyh-Va-srP">
             <objects>
-                <viewController id="EJs-fM-vMk" customClass="ReciteViewController" customModule="MemoryMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EJs-fM-vMk" customClass="ReciteViewController" customModule="Recite" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MIo-g1-Rco">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -581,9 +581,9 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6NT-x7-6t2">
                                 <rect key="frame" x="0.0" y="114" width="320" height="375"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <collectionViewLayout key="collectionViewLayout" id="3JY-L8-vS6" customClass="CircularCollectionViewLayout" customModule="MemoryMaster" customModuleProvider="target"/>
+                                <collectionViewLayout key="collectionViewLayout" id="3JY-L8-vS6" customClass="CircularCollectionViewLayout" customModule="Recite" customModuleProvider="target"/>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="cell" id="k6y-ru-8M7" customClass="NothingCell" customModule="MemoryMaster" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="cell" id="k6y-ru-8M7" customClass="NothingCell" customModule="Recite" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -689,7 +689,7 @@
         <!--Recite-->
         <scene sceneID="Xke-g4-aOq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uUR-8D-EnW" customClass="MyNavigationController" customModule="MemoryMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uUR-8D-EnW" customClass="MyNavigationController" customModule="Recite" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Recite" image="recite_icon" id="Mbp-YH-KmY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Tw1-ID-fao">
@@ -709,7 +709,7 @@
         <!--Choose Type View Controller-->
         <scene sceneID="cwb-iL-reA">
             <objects>
-                <viewController id="otG-Y1-sxE" customClass="ChooseTypeViewController" customModule="MemoryMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="otG-Y1-sxE" customClass="ChooseTypeViewController" customModule="Recite" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n8S-cx-peo"/>
                         <viewControllerLayoutGuide type="bottom" id="Kwh-e7-mbq"/>
@@ -722,7 +722,7 @@
                                 <rect key="frame" x="53.5" y="177.5" width="213" height="213"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isv-Bj-dQD">
-                                        <rect key="frame" x="8" y="8" width="30" height="30"/>
+                                        <rect key="frame" x="8.5" y="8" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="nUQ-s1-cII"/>
                                             <constraint firstAttribute="height" constant="30" id="vNk-Tn-Ca2"/>
@@ -845,7 +845,7 @@
         <!--Me-->
         <scene sceneID="Ug7-Bl-gjX">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bus-5y-jo2" customClass="MyNavigationController" customModule="MemoryMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bus-5y-jo2" customClass="MyNavigationController" customModule="Recite" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Me" image="me_icon" selectedImage="me_icon" id="fWI-gZ-hZp"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ETw-QV-DuU">
