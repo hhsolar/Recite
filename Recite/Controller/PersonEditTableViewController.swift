@@ -11,7 +11,7 @@ import Photos
 
 class PersonEditTableViewController: UITableViewController, UIGestureRecognizerDelegate {
 
-    @IBOutlet weak var nameTextView: UITextField!
+    @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mottoTextView: UITextView!
     @IBOutlet weak var avatarButton: UIButton!
     
@@ -24,7 +24,7 @@ class PersonEditTableViewController: UITableViewController, UIGestureRecognizerD
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "My Profile"
-        nameTextView.delegate = self
+        nameTextField.delegate = self
         mottoTextView.delegate = self
     
         avatarButton.layer.cornerRadius = avatarButton.bounds.width / 2
@@ -37,9 +37,9 @@ class PersonEditTableViewController: UITableViewController, UIGestureRecognizerD
         avatarButton.setImage(image, for: .normal)
         
         if userInfo.userName != "" {
-            nameTextView.text = userInfo.userName
+            nameTextField.text = userInfo.userName
         } else {
-            nameTextView.placeholder = "Nickname"
+            nameTextField.placeholder = "Nickname"
         }
         mottoTextView.text = userInfo.userMotto
         
@@ -68,7 +68,7 @@ class PersonEditTableViewController: UITableViewController, UIGestureRecognizerD
         saveImage(image: image!)
         
         let userInfo = UserInfo.shared
-        userInfo.userName = nameTextView.text ?? ""
+        userInfo.userName = nameTextField.text ?? ""
         userInfo.userMotto = mottoTextView.text
     }
     
@@ -77,7 +77,7 @@ class PersonEditTableViewController: UITableViewController, UIGestureRecognizerD
             if mottoTextView.isFirstResponder {
                 mottoTextView.resignFirstResponder()
             } else {
-                nameTextView.resignFirstResponder()
+                nameTextField.resignFirstResponder()
             }
         }
     }
@@ -87,7 +87,7 @@ class PersonEditTableViewController: UITableViewController, UIGestureRecognizerD
     }
     
     func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {
-        if mottoTextView.isFirstResponder || nameTextView.isFirstResponder {
+        if mottoTextView.isFirstResponder || nameTextField.isFirstResponder {
             tableView.isScrollEnabled = false
             return true
         } else {

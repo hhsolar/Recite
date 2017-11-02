@@ -58,7 +58,8 @@ class ChooseTypeViewController: UIViewController, UITextFieldDelegate {
             }
             
             let noteInfo = MyBasicNoteInfo(id: MyBasicNoteInfo.nextNoteID(), time: Date(), type: noteType.rawValue, name: name, numberOfCard: 1)
-            let controller = EditNoteViewController.init(nibName: "EditNoteViewController", bundle: nil)
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let controller = storyboard.instantiateViewController(withIdentifier: "EditNoteViewController") as! EditNoteViewController
             controller.passedInNoteInfo = noteInfo
             controller.container = self.container
             controller.isFirstTimeEdit = true

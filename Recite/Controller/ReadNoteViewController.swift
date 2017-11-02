@@ -62,7 +62,7 @@ class ReadNoteViewController: EnlargeImageViewController {
         addBookmarkButton.frame = CGRect(x: topView.bounds.width - CustomSize.buttonWidth - CustomDistance.midEdge,
                                   y: (CustomSize.barHeight - CustomSize.buttonHeight) / 2 + CustomSize.statusBarHeight,
                                   width: CustomSize.buttonWidth, height: CustomSize.buttonHeight)
-        addBookmarkButton.setTitle("Save", for: .normal)
+        addBookmarkButton.setTitle("Mark", for: .normal)
         addBookmarkButton.setTitleColor(UIColor.white, for: .normal)
         addBookmarkButton.titleLabel?.font = UIFont.systemFont(ofSize: 16)
         addBookmarkButton.addTarget(self, action: #selector(addBookmarkAction), for: .touchUpInside)

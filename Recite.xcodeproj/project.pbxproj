@@ -39,10 +39,8 @@
 		189341D61FA6B4B900CCC1B2 /* BounceAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189341C71FA6B4B900CCC1B2 /* BounceAnimationController.swift */; };
 		189341D81FA6B50700CCC1B2 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189341D71FA6B50700CCC1B2 /* Singleton.swift */; };
 		189341DA1FA6B58A00CCC1B2 /* button_click.caf in Resources */ = {isa = PBXBuildFile; fileRef = 189341D91FA6B58A00CCC1B2 /* button_click.caf */; };
-		189341F01FA6BAEC00CCC1B2 /* TestNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189341DB1FA6BAEA00CCC1B2 /* TestNoteViewController.xib */; };
 		189341F11FA6BAEC00CCC1B2 /* PersonEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189341DC1FA6BAEA00CCC1B2 /* PersonEditTableViewController.swift */; };
 		189341F21FA6BAEC00CCC1B2 /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189341DD1FA6BAEA00CCC1B2 /* EditNoteViewController.swift */; };
-		189341F31FA6BAEC00CCC1B2 /* ReadNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189341DE1FA6BAEA00CCC1B2 /* ReadNoteViewController.xib */; };
 		189341F41FA6BAEC00CCC1B2 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189341DF1FA6BAEA00CCC1B2 /* SettingsTableViewController.swift */; };
 		189341F51FA6BAEC00CCC1B2 /* BaseTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189341E01FA6BAEA00CCC1B2 /* BaseTopViewController.swift */; };
 		189341F61FA6BAEC00CCC1B2 /* ImagePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189341E11FA6BAEB00CCC1B2 /* ImagePickerViewController.xib */; };
@@ -56,7 +54,6 @@
 		189341FE1FA6BAEC00CCC1B2 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189341E91FA6BAEB00CCC1B2 /* LibraryViewController.swift */; };
 		189341FF1FA6BAEC00CCC1B2 /* EnlargeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189341EA1FA6BAEB00CCC1B2 /* EnlargeImageViewController.swift */; };
 		189342001FA6BAEC00CCC1B2 /* ChooseTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189341EB1FA6BAEC00CCC1B2 /* ChooseTypeViewController.swift */; };
-		189342011FA6BAEC00CCC1B2 /* EditNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189341EC1FA6BAEC00CCC1B2 /* EditNoteViewController.xib */; };
 		189342021FA6BAEC00CCC1B2 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189341ED1FA6BAEC00CCC1B2 /* ImagePickerViewController.swift */; };
 		189342031FA6BAEC00CCC1B2 /* BookmarkTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189341EE1FA6BAEC00CCC1B2 /* BookmarkTableViewController.xib */; };
 		1893421C1FA6BDAA00CCC1B2 /* BorderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189342081FA6BDA700CCC1B2 /* BorderUIView.swift */; };
@@ -141,10 +138,8 @@
 		189341C71FA6B4B900CCC1B2 /* BounceAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceAnimationController.swift; sourceTree = "<group>"; };
 		189341D71FA6B50700CCC1B2 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		189341D91FA6B58A00CCC1B2 /* button_click.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = button_click.caf; sourceTree = "<group>"; };
-		189341DB1FA6BAEA00CCC1B2 /* TestNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestNoteViewController.xib; sourceTree = "<group>"; };
 		189341DC1FA6BAEA00CCC1B2 /* PersonEditTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonEditTableViewController.swift; sourceTree = "<group>"; };
 		189341DD1FA6BAEA00CCC1B2 /* EditNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
-		189341DE1FA6BAEA00CCC1B2 /* ReadNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadNoteViewController.xib; sourceTree = "<group>"; };
 		189341DF1FA6BAEA00CCC1B2 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		189341E01FA6BAEA00CCC1B2 /* BaseTopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTopViewController.swift; sourceTree = "<group>"; };
 		189341E11FA6BAEB00CCC1B2 /* ImagePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePickerViewController.xib; sourceTree = "<group>"; };
@@ -158,7 +153,6 @@
 		189341E91FA6BAEB00CCC1B2 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		189341EA1FA6BAEB00CCC1B2 /* EnlargeImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnlargeImageViewController.swift; sourceTree = "<group>"; };
 		189341EB1FA6BAEC00CCC1B2 /* ChooseTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseTypeViewController.swift; sourceTree = "<group>"; };
-		189341EC1FA6BAEC00CCC1B2 /* EditNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditNoteViewController.xib; sourceTree = "<group>"; };
 		189341ED1FA6BAEC00CCC1B2 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		189341EE1FA6BAEC00CCC1B2 /* BookmarkTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookmarkTableViewController.xib; sourceTree = "<group>"; };
 		189342081FA6BDA700CCC1B2 /* BorderUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderUIView.swift; sourceTree = "<group>"; };
@@ -277,8 +271,6 @@
 		189341A21FA6B09D00CCC1B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				189341741FA6AC4C00CCC1B2 /* Main.storyboard */,
-				1893417C1FA6AC4C00CCC1B2 /* LaunchScreen.storyboard */,
 				189342131FA6BDA800CCC1B2 /* BookmarkTableViewCell.swift */,
 				1893420C1FA6BDA700CCC1B2 /* BookmarkTableViewCell.xib */,
 				189342081FA6BDA700CCC1B2 /* BorderUIView.swift */,
@@ -358,6 +350,8 @@
 			isa = PBXGroup;
 			children = (
 				189341701FA6AC4C00CCC1B2 /* AppDelegate.swift */,
+				189341741FA6AC4C00CCC1B2 /* Main.storyboard */,
+				1893417C1FA6AC4C00CCC1B2 /* LaunchScreen.storyboard */,
 				189341AD1FA6B21700CCC1B2 /* Default-568h@2x.png */,
 				1893417A1FA6AC4C00CCC1B2 /* Assets.xcassets */,
 				189341A71FA6B10A00CCC1B2 /* Sound */,
@@ -390,11 +384,8 @@
 				189341EB1FA6BAEC00CCC1B2 /* ChooseTypeViewController.swift */,
 				189341E51FA6BAEB00CCC1B2 /* NoteViewController.swift */,
 				189341DD1FA6BAEA00CCC1B2 /* EditNoteViewController.swift */,
-				189341EC1FA6BAEC00CCC1B2 /* EditNoteViewController.xib */,
 				189341E21FA6BAEB00CCC1B2 /* ReadNoteViewController.swift */,
-				189341DE1FA6BAEA00CCC1B2 /* ReadNoteViewController.xib */,
 				189341E61FA6BAEB00CCC1B2 /* TestNoteViewController.swift */,
-				189341DB1FA6BAEA00CCC1B2 /* TestNoteViewController.xib */,
 				189341EA1FA6BAEB00CCC1B2 /* EnlargeImageViewController.swift */,
 			);
 			name = TabLibrary;
@@ -557,9 +548,6 @@
 				189342231FA6BDAA00CCC1B2 /* EditNoteCollectionViewCell.xib in Resources */,
 				1893422A1FA6BDAA00CCC1B2 /* LibraryTableViewCell.xib in Resources */,
 				1893421F1FA6BDAA00CCC1B2 /* CircularCollectionViewCell.xib in Resources */,
-				189341F01FA6BAEC00CCC1B2 /* TestNoteViewController.xib in Resources */,
-				189341F31FA6BAEC00CCC1B2 /* ReadNoteViewController.xib in Resources */,
-				189342011FA6BAEC00CCC1B2 /* EditNoteViewController.xib in Resources */,
 				1893417B1FA6AC4C00CCC1B2 /* Assets.xcassets in Resources */,
 				189341DA1FA6B58A00CCC1B2 /* button_click.caf in Resources */,
 				189341F61FA6BAEC00CCC1B2 /* ImagePickerViewController.xib in Resources */,

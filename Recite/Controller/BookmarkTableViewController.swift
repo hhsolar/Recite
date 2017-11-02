@@ -146,22 +146,23 @@ extension BookmarkTableViewController {
         if bookmark.readPage > (noteInfo?.numberOfCard)! - 1 {
             page = 0
         }
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
         switch bookmark.readType {
         case ReadType.edit.rawValue:
-            let controller = EditNoteViewController.init(nibName: "EditNoteViewController", bundle: nil)
+            let controller = storyboard.instantiateViewController(withIdentifier: "EditNoteViewController") as! EditNoteViewController
             controller.passedInCardIndex = IndexPath(item: Int(page), section: 0)
             controller.passedInCardStatus = bookmark.readPageStatus
             controller.passedInNoteInfo = noteInfo
             controller.container = container
             present(controller, animated: true, completion: nil)
         case ReadType.read.rawValue:
-            let controller = ReadNoteViewController.init(nibName: "ReadNoteViewController", bundle: nil)
+            let controller = storyboard.instantiateViewController(withIdentifier: "ReadNoteViewController") as! ReadNoteViewController
             controller.passedInNoteInfo = noteInfo
             controller.passedInNotes = notes
             controller.startCardIndexPath = IndexPath(item: Int(page), section: 0)
             present(controller, animated: true, completion: nil)
         case ReadType.test.rawValue:
-            let controller = TestNoteViewController.init(nibName: "TestNoteViewController", bundle: nil)
+            let controller = storyboard.instantiateViewController(withIdentifier: "TestNoteViewController") as! TestNoteViewController
             controller.passedInNoteInfo = noteInfo
             controller.passedInNotes = notes
             controller.startCardIndexPath = IndexPath(item: Int(page), section: 0)

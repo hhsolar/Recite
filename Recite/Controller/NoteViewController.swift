@@ -95,7 +95,8 @@ extension NoteViewController: UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     private func presentNoteEditController(with indexPath: IndexPath) {
-        let controller = EditNoteViewController.init(nibName: "EditNoteViewController", bundle: nil)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "EditNoteViewController") as! EditNoteViewController
         
         controller.passedInCardIndex = indexPath
         if let note = passedInNoteInfo {
@@ -106,9 +107,10 @@ extension NoteViewController: UICollectionViewDelegate, UICollectionViewDataSour
         controller.delegate = self
         present(controller, animated: true, completion: nil)
     }
-
+    
     private func presentForNoteReadController(with indexPath: IndexPath) {
-        let controller = ReadNoteViewController.init(nibName: "ReadNoteViewController", bundle: nil)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "ReadNoteViewController") as! ReadNoteViewController
         
         if let note = passedInNoteInfo {
             controller.passedInNoteInfo = note
@@ -117,7 +119,6 @@ extension NoteViewController: UICollectionViewDelegate, UICollectionViewDataSour
         controller.startCardIndexPath = indexPath
         
         present(controller, animated: true, completion: nil)
-
     }
 }
 
@@ -146,7 +147,8 @@ extension NoteViewController: QACollectionViewCellDelegate {
     
     func toQANoteTest(with indexPath: IndexPath) {
         playSound.playClickSound(SystemSound.buttonClick)
-        let controller = TestNoteViewController.init(nibName: "TestNoteViewController", bundle: nil)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "TestNoteViewController") as! TestNoteViewController
         
         if let note = passedInNoteInfo {
             controller.passedInNoteInfo = note
