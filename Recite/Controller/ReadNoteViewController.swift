@@ -72,7 +72,7 @@ class ReadNoteViewController: EnlargeImageViewController {
         progressBarView.layer.masksToBounds = true
         progressBarView.layer.borderWidth = 1
         progressBarView.layer.borderColor = CustomColor.medianBlue.cgColor
-        progressBarView.backgroundColor = UIColor.white
+        progressBarView.backgroundColor = CustomColor.paperColor
         
         barFinishedPart.backgroundColor = CustomColor.medianBlue
         let startIndex = startCardIndexPath?.row ?? 0
